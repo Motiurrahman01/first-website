@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: #e8e5e480;
+    width:18%;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 8px;
+    margin: auto;
+    margin-top: 30px;
+}
+.navlist{
+    height: 40px;
+    width: 34%;
+    border-radius: 20px;
+    /* background-color: white; */
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-align: center;
+}
+.firstsec{
+    padding-top: 105px;
+}
+.firstsec h1{
+    font-size: 70px;
+    text-align: center;
+    width: 57%;
+    margin: auto;
+}
+.homenav{
+    display: flex;
+    width: 26%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 131px;
+}
+.navitem{
+    background-color: #e8e5e480;
+    border-radius: 20px;
+    height: 30px;
+    margin-right: 10px;
+    width: 25%;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+
+
+.image{
+width: 100%;
+
+}
+.row{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.imageitem{
+    width: 48%;
+    height: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.row div:nth-child(2){
+    margin-right: 0px;
+}
+.imageitem img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Secondsec{
+    text-align: center;
+    margin-top: 142px;
+}
+.Secondsec h1{
+    font-size: 38px;
+}
+.Secondsec h1:nth-child(2){
+    color:  #7f7f7f;
+}
+.footer{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 190px;
+
+}
+.leftfooter{
+    display: flex;
+    margin: 10px;
+    width: 85%;
+}
+.leftfooter .leftfooteritem{
+    margin-right: 20px;
+}
+.rightfooter{
+    display: flex;
+    width: 10%;
+
+}
+.rightfooter .rightfooteritem{
+    margin-right: 20px;
+}
